@@ -30,7 +30,7 @@ class Test(unittest.TestCase):
         print("新增用户用例：", (res.text).encode('utf8').decode('unicode_escape'))
     @classmethod
     def tearDownClass(cls):
-        user_list = ['17691353745@163.com', '1426858895@qq.com']  # HAOREAEIKJELFQHT
+        user_list = ["个人邮箱"]
         sub = "接口自动化"
         content = "测试邮件发送"
         s = SendEmail()

@@ -7,12 +7,12 @@ class SendEmail:
     global send_user
     global email_host
     global password
-    send_user = "1426858895@qq.com"
+    send_user = "个人邮箱"
     email_host = "smtp.qq.com"
-    password = "krqkkbcqkliehbce"
+    password = "授权码"
     def send_email_file(self,user_list,sub,content):
         #构造邮件相关信息
-        user = '1426858895' +"<" + send_user +">"
+        user = '个人邮箱' +"<" + send_user +">"
         message = MIMEMultipart()
         message['Subject'] = sub
         message['From'] = user
@@ -48,7 +48,7 @@ class SendEmail:
 
 
 if __name__ == '__main__':
-    user_list = ['17691353745@163.com','1426858895@qq.com']  # HAOREAEIKJELFQHT
+    user_list = ["个人邮箱"]  # HAOREAEIKJELFQHT
     sub = "接口自动化"
     content = "测试邮件发送"
     s = SendEmail()
