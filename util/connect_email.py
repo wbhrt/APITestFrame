@@ -48,6 +48,9 @@ class SendEmail:
 
 
 if __name__ == '__main__':
+    send_user = "1426858895@qq.com"
+    email_host = "smtp.qq.com"
+    password = "krqkkbcqkliehbce"
     user_list = ["个人邮箱"]  # HAOREAEIKJELFQHT
     sub = "接口自动化"
     content = "测试邮件发送"
