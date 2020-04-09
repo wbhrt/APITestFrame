@@ -80,6 +80,7 @@ def quicsort(list):
 def merge(left,right):
     arr = []
     i=j=0
+
     while i <len(left) and j <len(right):
         if left[i] <right[j]:
             arr.append(left[i])
