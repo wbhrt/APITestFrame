@@ -104,7 +104,7 @@ def mergesort(list):
     return merge(left,right)
 if __name__ == '__main__':
     list = [1,2,7,8,9,4]
-    print(mergesort(list))
+    # print(mergesort(list))
     # fastsort(list,0,5)
     # for i in list:
     #     print(i)
